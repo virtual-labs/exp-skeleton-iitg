@@ -1,1 +1,1 @@
-### Aim of the experiment
+### Skeleton - Assembling, Identification & labeling

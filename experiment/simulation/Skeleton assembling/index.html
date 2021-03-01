@@ -1,0 +1,250 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <script src="js/jquery.js"></script>
+    <style type="text/css">
+            #mimg {
+            margin:45px auto auto 85px;
+            border: 1px solid red;
+            background-image: url("image/sclton.jpg");
+            background-repeat: no-repeat;
+            height: 870px;
+            float: left;
+            width: 353px;
+            position: relative;
+            }
+
+            #left{
+            //border: 1px solid #aaaaaa;
+            vertical-align:top;
+            width:33%;
+            height:100%;
+            float:left;
+            display:inline-table;
+            }
+
+            #right{
+            //border: 1px solid #aaaaaa;
+            vertical-align:top;
+            width:65%;
+            height:100%;
+            float:right;
+            display:inline-table;
+            }
+
+            #div1 {
+            width: 26px;
+            height: 77px;
+            //border: 1px solid #aaaaaa;
+            margin-left: 18px;
+            margin-top: -153px;
+            float: left;
+            position: static;
+            }
+
+            #div2 {
+            width: 64px;
+            height: 164px;
+            //border: 1px solid #aaaaaa;
+            margin-left: 87px;
+            margin-top: 135px;
+            float: left;
+            position: static;
+            }
+
+            #div3 {
+            width: 71px;
+            height: 142px;
+            //border: 1px solid #aaaaaa;
+            margin-left: 117px;
+            margin-top: -35px;
+            float: left;
+            position: static;
+            }
+
+            #div31 {
+            width: 67px;
+            height: 138px;
+            //border: 1px solid #aaaaaa;
+            margin-left: 13px;
+            margin-top: -30px;
+            float: left;
+            position: static;
+            }
+
+            #div4 {
+            width: 79px;
+            height: 162px;
+            //border: 1px solid #aaaaaa;
+            margin-left: 35px;
+            margin-top: 135px;
+            float: left;
+            position: static;
+            }
+
+            #div5 {
+            width: 93px;
+            height: 196px;
+            //border: 1px solid #aaaaaa;
+            margin-left: -65px;
+            margin-top: -15px;
+            float: left;
+            position: static;
+            }
+
+            #div6 {
+            width: 81px;
+            height: 208px;
+            //border: 1px solid #aaaaaa;
+            margin-left: -175px;
+            margin-top: -20px;
+            float: left;
+            position: static;
+            }
+
+            #div7 {
+            width: 64px;
+            height: 177px;
+            //border: 1px solid #aaaaaa;
+            margin-left: -96px;
+            margin-top: 183px;
+            float: left;
+            position: static;
+            }
+
+            #div8 {
+            width: 57px;
+            height: 178px;
+            //border: 1px solid #aaaaaa;
+            margin-left: -145px;
+            margin-top: 183px;
+            float: left;
+            position: static;
+            }
+
+            #div9 {
+            width: 65px;
+            height: 79px;
+            //border: 1px solid #aaaaaa;
+            margin-left: -2px;
+            margin-top: -86px;
+            float: left;
+            position: static;
+            }
+
+            #div10 {
+            width: 53px;
+            height: 86px;
+            //border: 1px solid #aaaaaa;
+            margin-left: -32px;
+            margin-top: -83px;
+            float: left;
+            position: static;
+            }
+
+            #div11 {
+            width: 58px;
+            height: 87px;
+            //border: 1px solid #aaaaaa;
+            margin-left: 15px;
+            margin-top: -80px;
+            float: left;
+            position: static;
+            }
+
+            #box{
+            margin:45px auto auto 500px;
+            padding: 5px 5px 0 5px;
+            border: 1px solid red;
+            height: 870px;
+            float: left;
+            width: 353px;
+            position: relative;
+            }
+
+            body {
+            height: 100%;
+            background-color: #055B26;
+            }
+    </style>
+
+    <script>
+function allowDrop(ev)
+{
+ev.preventDefault();
+}
+
+function drag(ev)
+{
+ev.dataTransfer.setData("Text",ev.target.id);
+}
+
+function drop(ev)
+{
+ev.preventDefault();
+var data=ev.dataTransfer.getData("Text");
+ev.target.appendChild(document.getElementById(data));
+}
+
+function checklocation()
+{
+    if(($('#div1').find('#drag1').length == 1) && ($('#div5').find('#drag10').length == 1) && ($('#div8').find('#drag9').length == 1) && ($('#div9').find('#drag3').length == 1) )
+   {
+     
+    if(($('#div6').find('#drag2').length == 1) && ($('#div7').find('#drag7').length == 1) && ($('#div10').find('#drag12').length == 1) && ($('#div11').find('#drag8').length == 1))
+    {    
+    alert("CORRECT!");
+    }
+  } else {
+    alert("Wrong!");
+  }
+}
+
+
+    </script>
+</head>
+<body>
+    <div id="mimg" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <div id="left">
+            <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div31" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+        <div id="right">
+            <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div9" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div10" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div11" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+    </div>
+    <div style="margin-top: 47%; margin-left:6%; float: left;">
+        <input type="submit" name="submit" value="submit" onclick="checklocation();">
+    </div>
+
+    <div id="box" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="drag1" src="image/1.png" draggable="true" ondragstart="drag(event)">
+        <img id="drag2" src="image/6.png" draggable="true" ondragstart="drag(event)">
+        <img id="drag3" src="image/2.png" draggable="true" ondragstart="drag(event)">
+        <img id="drag4" src="image/3.png" draggable="true" ondragstart="drag(event)">
+        <img id="drag5" src="image/4.png" draggable="true" ondragstart="drag(event)">
+        <img id="drag6" src="image/5.png" draggable="true" ondragstart="drag(event)">
+        <img id="drag7" src="image/7.png" draggable="true" ondragstart="drag(event)">
+        <img id="drag8" src="image/8.png" draggable="true" ondragstart="drag(event)">
+        <img id="drag9" src="image/9.png" draggable="true" ondragstart="drag(event)">
+        <img id="drag10" src="image/12.png" draggable="true" ondragstart="drag(event)">
+        <img id="drag11" src="image/10.png" draggable="true" ondragstart="drag(event)">
+        <img id="drag12" src="image/11.png" draggable="true" ondragstart="drag(event)">
+        
+    </div>
+    
+</body>
+</html>

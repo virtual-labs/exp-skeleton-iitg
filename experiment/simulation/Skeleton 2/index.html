@@ -3,13 +3,13 @@
 	
     #divmm{width:200px;height:400px;border:1px solid #aaaaaa; margin-top:-45%;margin-left: 50%; background-color: #055B26; float: left;}
     #mainimg{
-    	background-image: url("image/skeleton 2.jpg");
-    	background-repeat: no-repeat;
+        background-image: url("image/skeleton 2.jpg");
+        background-repeat: no-repeat;
         height: 900px;
         float: left;
-        width: 100%;
+        width: 660px;
         position: relative;
-        margin-left: 35%;
+        margin-left: 150px;
         
     }
     body{
@@ -28,11 +28,10 @@
 
     .right{
         
-        margin-left: 10%;
-        margin-top: 8%;
-        width: 8%;
+        margin-left: 290px;
+        margin-top: 150px;
+        width: 80px;
         float: left;
-        height:50%;
     
     }
 
@@ -41,44 +40,44 @@
     }
 
     #innominate{
-       margin-top: 30px;
-       width: 80px;
-    }
-        #patella{
-        margin-top: 140%;
+        margin-top: 30px;
         width: 80px;
     }
-        #tibia{
-        margin-top: 20%;
+    #patella{
+        margin-top: 208px;
+        width: 80px;
+    }
+    #tibia{
+        margin-top: 30px;
         width: 80px;
     }
 
         #fibula{
-        margin-top: 20%;
+        margin-top: 30px;
         width: 80px;
     }
         #mandible{
-        margin-top: 40%;
+        margin-top: 65px;
         width: 80px;
     }
 
         #rib{
-        margin-top: 10%;
+        margin-top: 25px;
         width: 80px;
     }
 
         #vertebra{
-        margin-top: 40%;
+        margin-top: 65px;
         width: 80px;
     }
 
         #radius{
-        margin-top: 10%;
+        margin-top: 15px;
         width: 80px;
     }
 
         #femur{
-        margin-top: 110%;
+        margin-top: 160px;
         width: 80px;
     }
 
@@ -141,46 +140,25 @@ ev.target.appendChild(document.getElementById(data));
 </script>
 <body >
 
-
 <div id="mainimg" ondrop="drop(event)" ondragover="allowDrop(event)">
-
-<div class="left">
-
-<input type="text" name="humarus" id="humarus">
-
-<input type="text" name="innominate" id="innominate">
-
-<input type="text" name="patella" id="patella">
-
-<input type="text" name="tibia" id="tibia">
-
-<input type="text" name="fibula" id="fibula">
-
+    <div class="left">
+    <input type="text" name="humarus" id="humarus">
+    <input type="text" name="innominate" id="innominate">
+    <input type="text" name="patella" id="patella">
+    <input type="text" name="tibia" id="tibia">
+    <input type="text" name="fibula" id="fibula">
 </div>
 
 <div class="right">
-
-<input type="text" name="cranium" id="cranium">
-
-<input type="text" name="mandible" id="mandible">
-
-<input type="text" name="rib" id="rib">
-
-<input type="text" name="vertebra" id="vertebra">
-
-<input type="text" name="radius" id="radius">
-
-<input type="text" name="femur" id="femur">
-
+    <input type="text" name="cranium" id="cranium">
+    <input type="text" name="mandible" id="mandible">
+    <input type="text" name="rib" id="rib">
+    <input type="text" name="vertebra" id="vertebra">
+    <input type="text" name="radius" id="radius">
+    <input type="text" name="femur" id="femur">
+    <input type="submit" name="submit" onclick="check()" value="Submit" class="submit">
 </div>
-
-
-<input type="submit" name="submit" onclick="check()" value="Submit" class="submit">
-
 </div>
-
-
-
 
 <!--<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 <img id="drag1" src="demo.jpg" draggable="true"

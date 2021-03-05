@@ -1,24 +1,24 @@
 ## Introduction
 
 
-<b>Discipline | <b>Fill your discipline name here
+<b>Discipline | <b>Humanities and Social Sciences
 :--|:--|
-<b> Lab | <b> Fill your lab name here
-<b> Experiment|     <b> Fill your experiment name and number here
+<b> Lab | <b> Digital Anthropology Lab
+<b> Experiment|     <b> Skeleton - Assembling, Identification & labeling
 
 ### About the Experiment 
 
-Fill a brief description of this experiment here
+Assembling , Identifying & labeling different parts of a skeleton
 
-<b>Name of Developer | <b> Fill the name of experiment owner here 
+<b>Name of Developer | <b> Dr. SANTOSH BISWAS
 :--|:--|
-<b> Institute | <b>  
-<b> Email id|     <b>  
-<b> Department |  
+<b> Institute | <b> IIT Guwahati 
+<b> Email id|     <b>  santosh_biswas@iitg.ac.in
+<b> Department |  Computer Science & Engineering
 
 ### Contributors List
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | . | . | . | . | .
-2 | . | . | . | . | .
+1 |Hrishikesh Baruah | Project Staff | Computer Science & Engineering | IITG | hrishikeshbaruah@rnd.iitg.ac.in
+2 |Sudarshana Sarma | Project Staff | Computer Science & Engineering | IITG  | sudarshana91@rnd.iitg.ac.in

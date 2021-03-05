@@ -1,2 +1,2 @@
 ### Skeleton - Assembling, Identification & labeling
-Obtaining main line formula of a given palm
+Assembling , Identifying & labeling different parts of a skeleton

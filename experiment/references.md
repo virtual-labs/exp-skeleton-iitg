@@ -1,5 +1,3 @@
-### Reference
-
 1.B.M. Das, Outline of Physical Anthropology, Kitab Mahal (1961)
 
 2.B.M. Das & Ranjan Deka, Physical Anthropology Practical, Kitab Mahal

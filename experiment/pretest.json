@@ -1,1 +1,28 @@
-[{"question":"1.By weight, bone tissue is ___ mineral and ___ organic material.","answers":{"a":"70% and 30%","b":"30 % and 70%","c":"60% and 40 %","d":"50 % and 50 % ."},"correctAnswer":"a"},{"question":"2.Humerus is the bone of","answers":{"a":"Lower arm","b":"Upper arm","c":"The lateral bone of the forearm","d":"medial bone of the forearm"},"correctAnswer":"b"},{"question":"3. Which one is the largest and strongest bone of the skeleton?","answers":{"a":"Ulna","b":"Femur","c":"Tibia","d":"patella"},"correctAnswer":"b"}]
+[{
+	"question": "1.By weight, bone tissue is ___ mineral and ___ organic material.",
+	"answers": {
+		"a": "70% and 30%",
+		"b": "30 % and 70%",
+		"c": "60% and 40 %",
+		"d": "50 % and 50 % ."
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "2.Humerus is the bone of",
+	"answers": {
+		"a": "Lower arm",
+		"b": "Upper arm",
+		"c": "The lateral bone of the forearm",
+		"d": "medial bone of the forearm"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "3. Which one is the largest and strongest bone of the skeleton?",
+	"answers": {
+		"a": "Ulna",
+		"b": "Femur",
+		"c": "Tibia",
+		"d": "patella"
+	},
+	"correctAnswer": "b"
+}]

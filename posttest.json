@@ -1,0 +1,28 @@
+[{
+	"question": "1.What is the crown in tooth?",
+	"answers": {
+		"a": "the projected portion beyond the gum",
+		"b": "portion between the roots",
+		"c": "in the sockets of the maxilla",
+		"d": "none of them"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "2.Which one is the bone of facial part?",
+	"answers": {
+		"a": "Palantine",
+		"b": "vomer",
+		"c": "Lachrymal",
+		"d": "occipital"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "3. Where is vomer situated",
+	"answers": {
+		"a": "in the lower part of the septum of the nose",
+		"b": "in the upper part of the septum of the nose",
+		"c": "in the right side of the septum of the nose",
+		"d": "near the front part of the medial orbital walls."
+	},
+	"correctAnswer": "a"
+}]
